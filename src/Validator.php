@@ -14,6 +14,8 @@ class Validator
 
     /**
      * @var bool
+     *
+     * don't turn it off. The Soap endpoint will throw an error if connecting via IPv6 (2014-08-28)
      */
     private $forceIpv4 = true;
     /**

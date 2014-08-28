@@ -6,7 +6,6 @@ require('../src/Validator.php');
 
 $vatCheck = new Validator();
 $vatCheck->setVat('AT123456789');
-$vatCheck->setForceIpv4(false);
 echo '<pre>';
 $valid = $vatCheck->check();
 if ($valid === true) {
