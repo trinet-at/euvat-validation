@@ -1,0 +1,16 @@
+{
+    "name": "Trinet/EuvatValidation",
+    "description": "Validates EU VAT numbers live using the EU Soap service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rieschl",
+            "email": "thomas@trinet.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Trinet\\EuvatValidation\\": "src/"
+        }
+    }
+}
