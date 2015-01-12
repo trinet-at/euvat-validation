@@ -1,5 +1,5 @@
 {
-    "name": "Trinet/EuvatValidation",
+    "name": "trinet/euvat-validation",
     "description": "Validates EU VAT numbers live using the EU Soap service",
     "license": "MIT",
     "authors": [
